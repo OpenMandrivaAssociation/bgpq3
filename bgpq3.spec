@@ -33,3 +33,11 @@ rm -fr %{buildroot}
 %defattr(-,root,root)
 %{_bindir}/*
 %{_mandir}/man8/*
+
+
+%changelog
+* Fri Mar 04 2011 zamir <zamir@mandriva.org> 0.1.12-0mdv2011.0
++ Revision: 641577
+- first build
+- create bgpq3
+
