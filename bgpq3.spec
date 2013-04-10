@@ -9,7 +9,8 @@ Source:		http://snar.spb.ru/prog/bgpq3/%{name}-%{version}.tgz
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
-The bgpq3 ultility used to generate Cisco and Juniper prefix-lists, extended access-lists,
+The bgpq3 ultility used to generate Cisco and Juniper prefix-lists, extended
+access-lists,
 policy-statement terms and as-path lists based on RADB data.
 
 %prep
