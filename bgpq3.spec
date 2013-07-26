@@ -1,15 +1,18 @@
-Summary:	bgp filtering automation for cisco and juniper routers
+Summary:	BGP filtering automation for cisco and juniper routers
 Name:		bgpq3
-Version:	0.1.12
+Version:	0.1.19
 Release:	1
-License:	GPL
+License:	GPLv2
 Group:		Text tools
 URL:		http://snar.spb.ru/prog/bgpq3/
 Source:		http://snar.spb.ru/prog/bgpq3/%{name}-%{version}.tgz
 
+
 %description
-The bgpq3 ultility used to generate Cisco and Juniper prefix-lists, extended
-access-lists, policy-statement terms and as-path lists based on RADB data.
+The bgpq3 ultility used to generate Cisco and 
+Juniper prefix-lists, extended access-lists,
+policy-statement terms and as-path lists 
+based on RADB data.
 
 %prep
 %setup -q
@@ -28,10 +31,4 @@ install -D -m 644 bgpq3.8 %{buildroot}%{_mandir}/man8/
 %{_bindir}/*
 %{_mandir}/man8/*
 
-
-%changelog
-* Fri Mar 04 2011 zamir <zamir@mandriva.org> 0.1.12-0mdv2011.0
-+ Revision: 641577
-- first build
-- create bgpq3
 
