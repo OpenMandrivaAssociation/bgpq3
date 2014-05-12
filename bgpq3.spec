@@ -1,6 +1,7 @@
 Summary:	BGP filtering automation for cisco and juniper routers
+
 Name:		bgpq3
-Version:	0.1.19
+Version:	0.1.20
 Release:	1
 License:	GPLv2
 Group:		Text tools
@@ -30,5 +31,6 @@ install -D -m 644 bgpq3.8 %{buildroot}%{_mandir}/man8/
 %files
 %{_bindir}/*
 %{_mandir}/man8/*
+
 
 
