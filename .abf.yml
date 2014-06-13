@@ -2,5 +2,6 @@ removed_sources:
   bgpq3-0.1.12.tgz: 130479d4c08b555fa8cb0e54ab05092c94987884
   bgpq3-0.1.18.tgz: 4563ee65d45c3925dc816d151ee1ad00c38a7d41
   bgpq3-0.1.19.tgz: 41a2afaeffb12e43048ca8771c6cc6e6392e0da5
-sources:
   bgpq3-0.1.20.tgz: 7bbd4779ec84ab4f36ce630ee75fe037255a56cf
+sources:
+  bgpq3-0.1.21.tgz: 42b2ea29c15e3e57c83c9d5f21c793944e1f2b61
