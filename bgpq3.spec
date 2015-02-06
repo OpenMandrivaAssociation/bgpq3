@@ -3,7 +3,7 @@ Summary:	BGP filtering automation for cisco and juniper routers
 
 Name:		bgpq3
 Version:	0.1.21
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		Text tools
 URL:		http://snar.spb.ru/prog/bgpq3/
