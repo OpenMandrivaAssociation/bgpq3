@@ -6,7 +6,7 @@ Version:	0.1.31
 Release:	1
 License:	GPLv2
 Group:		Text tools
-URL:		http://snar.spb.ru/prog/bgpq3/
+URL:		https://snar.spb.ru/prog/bgpq3/
 Source:		http://snar.spb.ru/prog/bgpq3/%{name}-%{version}.tgz
 
 
