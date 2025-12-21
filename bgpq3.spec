@@ -10,6 +10,11 @@ URL:		https://snar.spb.ru/prog/bgpq3/
 Source:		http://snar.spb.ru/prog/bgpq3/%{name}-%{version}.tgz
 
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 The bgpq3 ultility used to generate Cisco and 
 Juniper prefix-lists, extended access-lists,
